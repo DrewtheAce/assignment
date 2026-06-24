@@ -1,6 +1,5 @@
 
         Console.WriteLine("Student Results Processing System");
-Console.WriteLine("hello");
 
         int choice;
 
