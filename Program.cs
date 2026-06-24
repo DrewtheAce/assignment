@@ -1,4 +1,4 @@
-﻿
+
         Console.WriteLine("Student Results Processing System");
 Console.WriteLine("hello");
 
@@ -47,34 +47,53 @@ Console.WriteLine("hello");
 
                     int score1, score2, score3, score4, score5;
 
-                    do
-                    {
-                        Console.WriteLine("Database Systems:");
-                        score1 = int.Parse(Console.ReadLine());
+            do
+            {
+                Console.WriteLine("Database Systems:");
+                score1 = int.Parse(Console.ReadLine());
+                    if (score1 < 0 || score1 > 100) {
+                    Console.WriteLine("Invalid score. Score must be between 0 and 100");
+                }
                     } while (score1 < 0 || score1 > 100);
 
-                    do
-                    {
-                        Console.WriteLine("Programming with C#:");
-                        score2 = int.Parse(Console.ReadLine());
+            do
+            {
+                Console.WriteLine("Programming with C#:");
+                score2 = int.Parse(Console.ReadLine());
+                    if (score2 < 0 || score2 > 100) {
+                    Console.WriteLine("Invalid score. Score must be between 0 and 100");
+                }
                     } while (score2 < 0 || score2 > 100);
 
-                    do
-                    {
-                        Console.WriteLine("Computer Networks:");
-                        score3 = int.Parse(Console.ReadLine());
+            do
+            {
+                Console.WriteLine("Computer Networks:");
+                score3 = int.Parse(Console.ReadLine());
+                    if (score3 < 0 || score3 > 100) {
+                    Console.WriteLine("Invalid score. Score must be between 0 and 100");
+                }
                     } while (score3 < 0 || score3 > 100);
 
-                    do
-                    {
-                        Console.WriteLine("Web Development:");
-                        score4 = int.Parse(Console.ReadLine());
+            do
+            {
+
+                Console.WriteLine("Web Development:");
+                score4 = int.Parse(Console.ReadLine());
+                    if (score4 < 0 || score4 > 100) {
+                    Console.WriteLine("Invalid score. Score must be between 0 and 100");
+                }
                     } while (score4 < 0 || score4 > 100);
 
-                    do
-                    {
-                        Console.WriteLine("Mathematics for Computing:");
-                        score5 = int.Parse(Console.ReadLine());
+            do
+            {
+                Console.WriteLine("Mathematics for Computing:");
+                score5 = int.Parse(Console.ReadLine());
+                if (score5 < 0 || score5 > 100) {
+                    Console.WriteLine("Invalid score. Score must be between 0 and 100");
+                }
+                {
+                            Console.WriteLine("Enter a")
+                        }
                     } while (score5 < 0 || score5 > 100);
 
                     totalScore[i] = score1 + score2 + score3 + score4 + score5;
