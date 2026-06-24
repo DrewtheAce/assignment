@@ -48,7 +48,7 @@
 
             do
             {
-                Console.WriteLine("Database Systems:");
+                Console.WriteLine("Enter score for Database Systems:");
                 score1 = int.Parse(Console.ReadLine());
                     if (score1 < 0 || score1 > 100) {
                     Console.WriteLine("Invalid score. Score must be between 0 and 100");
@@ -57,7 +57,7 @@
 
             do
             {
-                Console.WriteLine("Programming with C#:");
+                Console.WriteLine("Enter Score for Programming with C#:");
                 score2 = int.Parse(Console.ReadLine());
                     if (score2 < 0 || score2 > 100) {
                     Console.WriteLine("Invalid score. Score must be between 0 and 100");
@@ -66,7 +66,7 @@
 
             do
             {
-                Console.WriteLine("Computer Networks:");
+                Console.WriteLine("Enter score for Computer Networks:");
                 score3 = int.Parse(Console.ReadLine());
                     if (score3 < 0 || score3 > 100) {
                     Console.WriteLine("Invalid score. Score must be between 0 and 100");
@@ -76,7 +76,7 @@
             do
             {
 
-                Console.WriteLine("Web Development:");
+                Console.WriteLine("Enter Score for Web Development:");
                 score4 = int.Parse(Console.ReadLine());
                     if (score4 < 0 || score4 > 100) {
                     Console.WriteLine("Invalid score. Score must be between 0 and 100");
@@ -85,14 +85,11 @@
 
             do
             {
-                Console.WriteLine("Mathematics for Computing:");
+                Console.WriteLine("Enter Score for Mathematics for Computing:");
                 score5 = int.Parse(Console.ReadLine());
                 if (score5 < 0 || score5 > 100) {
                     Console.WriteLine("Invalid score. Score must be between 0 and 100");
                 }
-                {
-                            Console.WriteLine("Enter a")
-                        }
                     } while (score5 < 0 || score5 > 100);
 
                     totalScore[i] = score1 + score2 + score3 + score4 + score5;
